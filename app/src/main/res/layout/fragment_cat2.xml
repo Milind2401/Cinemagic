@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cat2">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:layout_height="match_parent"
+        tools:context=".Cat2"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+
+        <RelativeLayout
+            android:layout_width="350dp"
+            android:layout_height="134dp"
+
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounded_background">
+
+            <ImageView
+                android:id="@+id/phir_hera_pheri"
+                android:layout_width="80dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/phir_hera_pheri" />
+
+            <TextView
+                android:id="@+id/phir_hera_pheri_text"
+                android:layout_width="150dp"
+                android:layout_height="28dp"
+                android:layout_alignBottom="@+id/phir_hera_pheri"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="21dp"
+                android:layout_marginBottom="75dp"
+                android:layout_toEndOf="@+id/phir_hera_pheri"
+                android:text="Phir Hera Pheri"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bookButtonPhirHeraPheri"
+                android:layout_width="wrap_content"
+                android:layout_height="42dp"
+                android:layout_alignTop="@+id/phir_hera_pheri"
+                android:layout_alignBottom="@+id/phir_hera_pheri"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="75dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginBottom="-4dp"
+                android:backgroundTint="@color/blue"
+                android:text="Book Now"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/languagePhirHeraPheri"
+                android:layout_width="wrap_content"
+                android:layout_height="21dp"
+                android:layout_alignStart="@+id/phir_hera_pheri_text"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="48dp"
+                android:layout_marginBottom="65dp"
+                android:text="U/A-Hindi"
+                android:textColor="@color/light_grey"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView61"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/languagePhirHeraPheri"
+                android:layout_alignBottom="@+id/phir_hera_pheri"
+                android:textStyle="bold"
+                android:layout_marginStart="4dp"
+                android:layout_marginBottom="41dp"
+                android:gravity="center"
+                android:background="@color/white"
+                android:text="2D"
+                android:textSize="10dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="350dp"
+            android:layout_height="134dp"
+
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounded_background">
+
+            <ImageView
+                android:id="@+id/fukrey"
+                android:layout_width="80dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/fukrey" />
+
+            <TextView
+                android:id="@+id/fukreyText"
+                android:layout_width="150dp"
+                android:layout_height="28dp"
+                android:layout_alignBottom="@+id/fukrey"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="21dp"
+                android:layout_marginBottom="75dp"
+                android:layout_toEndOf="@+id/fukrey"
+                android:text="Fukrey"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bookButtonFukrey"
+                android:layout_width="wrap_content"
+                android:layout_height="42dp"
+                android:layout_alignTop="@+id/fukrey"
+                android:layout_alignBottom="@+id/fukrey"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="75dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginBottom="-4dp"
+                android:backgroundTint="@color/blue"
+                android:text="Book Now"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/languageFukrey"
+                android:layout_width="wrap_content"
+                android:layout_height="21dp"
+                android:layout_alignStart="@+id/fukreyText"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="48dp"
+                android:layout_marginBottom="65dp"
+                android:text="U/A-Hindi"
+                android:textColor="@color/light_grey"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView69"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/languageFukrey"
+                android:layout_alignBottom="@+id/fukrey"
+                android:textStyle="bold"
+                android:layout_marginStart="4dp"
+                android:layout_marginBottom="41dp"
+                android:gravity="center"
+                android:background="@color/white"
+                android:text="2D"
+                android:textSize="10dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="350dp"
+            android:layout_height="134dp"
+
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounded_background">
+
+            <ImageView
+                android:id="@+id/hungama2"
+                android:layout_width="80dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/hungama2" />
+
+            <TextView
+                android:id="@+id/Hungama2Text"
+                android:layout_width="150dp"
+                android:layout_height="28dp"
+                android:layout_alignBottom="@+id/hungama2"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="21dp"
+                android:layout_marginBottom="75dp"
+                android:layout_toEndOf="@+id/hungama2"
+                android:text="Hungama2"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bookNowButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="42dp"
+                android:layout_alignTop="@+id/hungama2"
+                android:layout_alignBottom="@+id/hungama2"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="75dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginBottom="-4dp"
+                android:backgroundTint="@color/blue"
+                android:text="Book Now"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="wrap_content"
+                android:layout_height="21dp"
+                android:layout_alignStart="@+id/Hungama2Text"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="48dp"
+                android:layout_marginBottom="65dp"
+                android:text="U/A-Hindi"
+                android:textColor="@color/light_grey"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView63"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView53"
+                android:layout_alignBottom="@+id/hungama2"
+                android:layout_marginStart="4dp"
+                android:layout_marginBottom="41dp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:text="2D"
+                android:textSize="10dp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>

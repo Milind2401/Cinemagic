@@ -1,0 +1,1025 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_grey"
+    tools:context=".TicketBooking">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:titleTextColor="@android:color/white" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="69dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.994"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/user_image" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="171dp"
+        android:layout_height="69dp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logowith_name" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:textColor="@color/blue"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="394dp"
+        android:layout_height="514dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="PLATINUM"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.07"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/plat1"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="18dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView5"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/plat2"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="18dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toEndOf="@+id/plat1"
+                app:layout_constraintTop_toBottomOf="@+id/textView5"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/plat3"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="18dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toEndOf="@+id/plat2"
+                app:layout_constraintTop_toBottomOf="@+id/textView5"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/plat4"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="18dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toEndOf="@+id/plat3"
+                app:layout_constraintTop_toBottomOf="@+id/textView5"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/plat5"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="18dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toEndOf="@+id/plat4"
+                app:layout_constraintTop_toBottomOf="@+id/textView5"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/plat6"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="18dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toEndOf="@+id/plat5"
+                app:layout_constraintTop_toBottomOf="@+id/textView5"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/plat7"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="18dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toEndOf="@+id/plat6"
+                app:layout_constraintTop_toBottomOf="@+id/textView5"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/plat8"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="18dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toEndOf="@+id/plat7"
+                app:layout_constraintTop_toBottomOf="@+id/textView5"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/plat9"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="18dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toEndOf="@+id/plat8"
+                app:layout_constraintTop_toBottomOf="@+id/textView5"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/plat10"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="18dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toEndOf="@+id/plat9"
+                app:layout_constraintTop_toBottomOf="@+id/textView5"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/plat11"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="20dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/plat10"
+                app:layout_constraintTop_toBottomOf="@+id/textView5"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/plat12"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toStartOf="@+id/plat1"
+                app:layout_constraintTop_toBottomOf="@+id/plat1"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/plat13"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toStartOf="@+id/plat2"
+                app:layout_constraintTop_toBottomOf="@+id/plat2"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/plat14"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toStartOf="@+id/plat3"
+                app:layout_constraintTop_toBottomOf="@+id/plat3"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/plat15"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toStartOf="@+id/plat4"
+                app:layout_constraintTop_toBottomOf="@+id/plat4"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/plat16"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toStartOf="@+id/plat5"
+                app:layout_constraintTop_toBottomOf="@+id/plat5"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/plat17"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toStartOf="@+id/plat6"
+                app:layout_constraintTop_toBottomOf="@+id/plat6"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/plat18"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toStartOf="@+id/plat7"
+                app:layout_constraintTop_toBottomOf="@+id/plat7"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/plat19"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toStartOf="@+id/plat8"
+                app:layout_constraintTop_toBottomOf="@+id/plat8"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/plat20"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toStartOf="@+id/plat9"
+                app:layout_constraintTop_toBottomOf="@+id/plat9"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/plat21"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toStartOf="@+id/plat10"
+                app:layout_constraintTop_toBottomOf="@+id/plat10"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/plat22"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toStartOf="@+id/plat11"
+                app:layout_constraintTop_toBottomOf="@+id/plat11"
+                app:srcCompat="@drawable/moviechair" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="16dp"
+                android:paddingBottom="10dp"
+                android:text="GOLD"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/plat17" />
+
+            <ImageButton
+                android:id="@+id/gold1"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/chair_button_selected"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView6"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/gold2"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="18dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toEndOf="@+id/gold1"
+                app:layout_constraintTop_toBottomOf="@+id/textView6"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/gold3"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="18dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toEndOf="@+id/gold2"
+                app:layout_constraintTop_toBottomOf="@+id/textView6"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/gold4"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="18dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toEndOf="@+id/gold3"
+                app:layout_constraintTop_toBottomOf="@+id/textView6"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/gold5"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="18dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toEndOf="@+id/gold4"
+                app:layout_constraintTop_toBottomOf="@+id/textView6"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/gold6"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="18dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toEndOf="@+id/gold5"
+                app:layout_constraintTop_toBottomOf="@+id/textView6"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/gold7"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="18dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toEndOf="@+id/gold6"
+                app:layout_constraintTop_toBottomOf="@+id/textView6"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/gold8"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="18dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toEndOf="@+id/gold7"
+                app:layout_constraintTop_toBottomOf="@+id/textView6"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/gold9"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="18dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toEndOf="@+id/gold8"
+                app:layout_constraintTop_toBottomOf="@+id/textView6"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/gold10"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="18dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toEndOf="@+id/gold9"
+                app:layout_constraintTop_toBottomOf="@+id/textView6"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/gold11"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="18dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintEnd_toEndOf="@+id/plat22"
+                app:layout_constraintStart_toEndOf="@+id/gold10"
+                app:layout_constraintTop_toBottomOf="@+id/textView6"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/gold12"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toStartOf="@+id/gold1"
+                app:layout_constraintTop_toBottomOf="@+id/gold1"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/gold13"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toStartOf="@+id/gold2"
+                app:layout_constraintTop_toBottomOf="@+id/gold2"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/gold14"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toStartOf="@+id/gold3"
+                app:layout_constraintTop_toBottomOf="@+id/gold3"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/gold15"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toEndOf="@+id/gold3"
+                app:layout_constraintStart_toStartOf="@+id/gold4"
+                app:layout_constraintTop_toBottomOf="@+id/gold4"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/gold16"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toStartOf="@+id/gold5"
+                app:layout_constraintTop_toBottomOf="@+id/gold5"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/gold17"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toEndOf="@+id/gold5"
+                app:layout_constraintStart_toStartOf="@+id/gold6"
+                app:layout_constraintTop_toBottomOf="@+id/gold6"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/gold18"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toStartOf="@+id/gold7"
+                app:layout_constraintTop_toBottomOf="@+id/gold7"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/gold19"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toStartOf="@+id/gold8"
+                app:layout_constraintTop_toBottomOf="@+id/gold8"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/gold20"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toStartOf="@+id/gold9"
+                app:layout_constraintTop_toBottomOf="@+id/gold9"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/gold21"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toStartOf="@+id/gold10"
+                app:layout_constraintTop_toBottomOf="@+id/gold10"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/gold22"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toStartOf="@+id/gold11"
+                app:layout_constraintTop_toBottomOf="@+id/gold11"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/gold23"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toStartOf="@+id/gold12"
+                app:layout_constraintTop_toBottomOf="@+id/gold12"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/gold24"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toEndOf="@+id/gold12"
+                app:layout_constraintStart_toStartOf="@+id/gold13"
+                app:layout_constraintTop_toBottomOf="@+id/gold13"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/gold25"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toStartOf="@+id/gold14"
+                app:layout_constraintTop_toBottomOf="@+id/gold14"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/gold26"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toStartOf="@+id/gold15"
+                app:layout_constraintTop_toBottomOf="@+id/gold15"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/gold27"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintEnd_toEndOf="@+id/gold19"
+                app:layout_constraintTop_toBottomOf="@+id/gold19"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/gold28"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintEnd_toEndOf="@+id/gold20"
+                app:layout_constraintTop_toBottomOf="@+id/gold20"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/gold29"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintEnd_toEndOf="@+id/gold21"
+                app:layout_constraintTop_toBottomOf="@+id/gold21"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/gold30"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintEnd_toEndOf="@+id/gold22"
+                app:layout_constraintTop_toBottomOf="@+id/gold22"
+                app:srcCompat="@drawable/moviechair" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="16dp"
+                android:paddingBottom="10dp"
+                android:text="SILVER"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/gold26" />
+
+            <ImageButton
+                android:id="@+id/slvr1"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="18dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView7"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/slvr2"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="18dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toEndOf="@+id/slvr1"
+                app:layout_constraintTop_toBottomOf="@+id/textView7"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/slvr3"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="18dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toEndOf="@+id/slvr2"
+                app:layout_constraintTop_toBottomOf="@+id/textView7"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/slvr4"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="18dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toEndOf="@+id/slvr3"
+                app:layout_constraintTop_toBottomOf="@+id/textView7"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/slvr5"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="10dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintEnd_toStartOf="@+id/slvr6"
+                app:layout_constraintTop_toBottomOf="@+id/textView7"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/slvr6"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="10dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintEnd_toStartOf="@+id/slvr7"
+                app:layout_constraintTop_toBottomOf="@+id/textView7"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/slvr7"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="10dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintEnd_toStartOf="@+id/slvr8"
+                app:layout_constraintTop_toBottomOf="@+id/textView7"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/slvr8"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="18dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintEnd_toEndOf="@+id/gold30"
+                app:layout_constraintTop_toBottomOf="@+id/textView7"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/slvr9"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toStartOf="@+id/slvr1"
+                app:layout_constraintTop_toBottomOf="@+id/slvr1"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/slvr10"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toEndOf="@+id/slvr9"
+                app:layout_constraintTop_toBottomOf="@+id/slvr2"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/slvr11"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toEndOf="@+id/slvr10"
+                app:layout_constraintTop_toBottomOf="@+id/slvr3"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/slvr12"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toEndOf="@+id/slvr11"
+                app:layout_constraintTop_toBottomOf="@+id/slvr4"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/slvr13"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toStartOf="@+id/slvr5"
+                app:layout_constraintTop_toBottomOf="@+id/slvr5"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/slvr14"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toEndOf="@+id/slvr13"
+                app:layout_constraintTop_toBottomOf="@+id/slvr6"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/slvr15"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toEndOf="@+id/slvr14"
+                app:layout_constraintTop_toBottomOf="@+id/slvr7"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/slvr16"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toEndOf="@+id/slvr15"
+                app:layout_constraintTop_toBottomOf="@+id/slvr8"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/slvr17"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toStartOf="@+id/slvr9"
+                app:layout_constraintTop_toBottomOf="@+id/slvr9"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/slvr19"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toStartOf="@+id/slvr11"
+                app:layout_constraintTop_toBottomOf="@+id/slvr11"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/slvr20"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toStartOf="@+id/slvr12"
+                app:layout_constraintTop_toBottomOf="@+id/slvr12"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/slvr21"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toStartOf="@+id/slvr13"
+                app:layout_constraintTop_toBottomOf="@+id/slvr13"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/slvr22"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toStartOf="@+id/slvr14"
+                app:layout_constraintTop_toBottomOf="@+id/slvr14"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/slvr23"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toStartOf="@+id/slvr15"
+                app:layout_constraintTop_toBottomOf="@+id/slvr15"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/slvr18"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toStartOf="@+id/slvr10"
+                app:layout_constraintTop_toBottomOf="@+id/slvr10"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageButton
+                android:id="@+id/slvr25"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue_grey"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toStartOf="@+id/slvr16"
+                app:layout_constraintTop_toBottomOf="@+id/slvr16"
+                app:srcCompat="@drawable/moviechair" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="419dp"
+                android:layout_height="119dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/slvr20"
+                app:srcCompat="@drawable/screen" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="64dp"
+                android:text="Screen this side"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="@+id/imageView8"
+                app:layout_constraintTop_toTopOf="@+id/imageView8" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </HorizontalScrollView>
+
+    <Button
+        android:id="@+id/paynow"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/blue"
+        android:text="Pay Now"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

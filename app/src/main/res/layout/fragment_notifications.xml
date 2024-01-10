@@ -1,0 +1,91 @@
+
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:padding="15dp"
+    android:background="@color/blue_grey"
+tools:context=".ui.notifications.NotificationsFragment">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".Cat1"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/textNotifications"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="45px"
+        android:textColor="@color/white"
+        android:text="Notifications"></TextView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15px"
+        android:padding="15px"
+        android:background="@drawable/rounded_background">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="45px"
+            android:textColor="@color/white"
+            android:text="Booking Confirmation: Congratulations! Your movie ticket for “The Batman” on 22 at 12pm has been successfully booked. Enjoy the show!"></TextView>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15px"
+        android:padding="15px"
+        android:background="@drawable/rounded_background">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="45px"
+            android:textColor="@color/white"
+            android:text="Ticket Upgrade Offer: Upgrade your movie experience! For an additional [Amount], you can enjoy VIP seating and complimentary............"></TextView>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15px"
+        android:padding="15px"
+        android:background="@drawable/rounded_background">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="45px"
+            android:textColor="@color/white"
+            android:text="Exclusive Discount: Get 20% off on all movie tickets this weekend. Use code WEEKEND20 during checkout to avail the discount. Don't miss out!"></TextView>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15px"
+        android:padding="15px"
+        android:background="@drawable/rounded_background">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="45px"
+            android:textColor="@color/white"
+            android:text="Coming Soon Preview: Get ready for the upcoming blockbuster, [Movie Title]. Watch the exclusive preview and stay tuned for ticket bookings ......"></TextView>
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "421477355142",
+    "project_id": "cinemagic-2dc23",
+    "storage_bucket": "cinemagic-2dc23.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421477355142:android:df1e32ecaebc97a17c4b07",
+        "android_client_info": {
+          "package_name": "com.example.cinemagic2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzjKnd4KRFNjQSyYnP7HpFPrMGbmzOeG4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
